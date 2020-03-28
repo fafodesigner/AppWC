@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Bano} from "../models/bano";
-import {FirestoreService} from "../firestore.service";
+import {FirestoreService} from "../services/firestore.service";
 import {Coordenada} from "../models/coordenada";
 import GeoPoint = firebase.firestore.GeoPoint;
 import * as firebase from 'firebase';
